@@ -1,0 +1,118 @@
+.bg-red {
+  background-color: red;
+}
+
+.canvas {
+  height: 100vh;
+  width: 100%;
+
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+
+.collapsible-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.right-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.left-content .header-title {
+  font-size: 1.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.date-selector {
+  display: flex;
+  gap: 1px;
+  align-items: center;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+.button-icon {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.display-selector {
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.display-value {
+  background-color: #E9F2FD;
+  padding: 4px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+
+
+.display-value p {
+  margin: 0;
+}
+
+.currency-span {
+  margin-right: 14px;
+}
+
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.data-table thead {
+  border-bottom: 2px solid #AEAEAE;
+}
+
+.data-table th {
+  font-size: 14px;
+  border-right: 1px solid #AEAEAE;
+  padding: 4px;
+}
+
+.data-table th:last-child {
+  border-right: none;
+}
+
+.data-table tbody tr {
+  border-bottom: 1px solid #AEAEAE;
+}
+
+.data-table td {
+  font-size: 14px;
+  padding: 4px;
+  border-right: 1px solid #AEAEAE;
+}
+
+.data-table td:last-child {
+  border-right: none;
+}
